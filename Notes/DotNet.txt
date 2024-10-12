@@ -1,0 +1,28 @@
+https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet
+
+====================================================================
+
+dotnet clean
+
+The dotnet clean command cleans the output of the previous build. 
+It's implemented as an MSBuild target, so the project is evaluated when the command is run. 
+Only the outputs created during the build are cleaned. Both intermediate (obj) and final output (bin) folders are cleaned.
+
+----------------------------------------
+
+dotnet build --runtime ubuntu.18.04-x64
+
+it's not recommended to use dotnet run to run applications in production
+Instead, create a deployment using the dotnet publish command and deploy the published output.
+
+
+----------------------------------------
+
+dotnet new webapi -o SimpleDotNetCore
+cd SimpleDotNetCore
+--------------------------------------------------------------
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+--------------------------------------------------------------

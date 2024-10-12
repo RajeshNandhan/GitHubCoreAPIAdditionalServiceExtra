@@ -1,0 +1,19 @@
+git clone github-repository-ur
+
+git status
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git status
+
+git push origin master
+
+git add .
+
+git pull origin master
+
+git remote -v

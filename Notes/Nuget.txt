@@ -1,0 +1,56 @@
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Install-Package Microsoft.EntityFrameworkCore.InMemory
+
+----------------------------------------------
+
+Install-Package Newtonsoft.Json
+
+----------------------------------------------
+
+Install-Package Autofac.Extensions.DependencyInjection
+Install-Package Autofac.Extras.DynamicProxy
+
+----------------------------------------------
+
+Install-Package Serilog
+Install-Package Serilog.AspNetCore
+Install-Package Serilog.Settings.Configuration
+
+----------------------------------------------
+
+Install-Package Microsoft.Extensions.Hosting.WindowsServices
+
+----------------------------------------------
+
+Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
+
+Install-Package Core.Library.AdditionalServicey
+
+----------------------------------------------
+
+Install-Package RabbitMQ.Client
+
+----------------------------------------------
+
+Install-Package Grpc.AspNetCore
+
+
+----------------------------------------------
+
+Install-Package Microsoft.Azure.ServiceBus
+
+----------------------------------------------
+
+Swashbuckle.AspNetCore
+
+SWAGGER
+
+----------------------------------------------
+
+Chache Data in Radis
+
+Microsoft.Extensions.Caching.StackExchangeRedis
+
+----------------------------------------------
