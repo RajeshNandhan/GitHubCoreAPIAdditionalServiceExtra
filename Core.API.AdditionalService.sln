@@ -17,11 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.dockerignore = .dockerignore
 		.gitignore = .gitignore
 		Dockerfile = Dockerfile
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.API.AdditionalService.NUnitTest", "Core.API.AdditionalService.NUnitTest\Core.API.AdditionalService.NUnitTest.csproj", "{F0AC0A82-0CE4-4E3F-8A0D-A9DDBFC35719}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Links", "Links", "{070E7218-1B98-4665-9D1C-0C274A78464C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.API.BusinessLogics.Common", "Core.API.BusinessLogics.Common\Core.API.BusinessLogics.Common.csproj", "{27F6477D-6F2F-40B9-97C7-36A19C57AB4A}"
 EndProject
