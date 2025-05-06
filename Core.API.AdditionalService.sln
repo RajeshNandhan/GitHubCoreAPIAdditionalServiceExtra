@@ -17,12 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.dockerignore = .dockerignore
 		.gitignore = .gitignore
 		Dockerfile = Dockerfile
-		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.API.AdditionalService.NUnitTest", "Core.API.AdditionalService.NUnitTest\Core.API.AdditionalService.NUnitTest.csproj", "{F0AC0A82-0CE4-4E3F-8A0D-A9DDBFC35719}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.API.BusinessLogics.Common", "Core.API.BusinessLogics.Common\Core.API.BusinessLogics.Common.csproj", "{27F6477D-6F2F-40B9-97C7-36A19C57AB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7447AAD3-87AD-4584-941B-6EA8C230C66A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0D6440E7-2A3F-43C6-839F-510CADCED847}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D6440E7-2A3F-43C6-839F-510CADCED847} = {7447AAD3-87AD-4584-941B-6EA8C230C66A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {557DA516-2639-46F9-A973-572225B6BEA2}
